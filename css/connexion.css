@@ -1,0 +1,43 @@
+.conteiner{
+    background-color: rgb(96,199,167);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+form {
+    background-color: #fff;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-style: italic;
+}
+#email input,#password input {
+    width: 95%;
+    font-size: 1.3em;
+    padding: 10px;
+    margin: 10px 0;
+}
+button{
+    margin: 10px 0;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: rgb(96,199,167);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+p {
+    text-align: center;
+    font-size: 1.3em;
+}
+a {
+    text-decoration: none;
+}

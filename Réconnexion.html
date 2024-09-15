@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nouveau mot de passe</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/RE.CSS">
+  <script src="JS/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <div>
+      <!-- Debut section menu de navigateur  -->
+      <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html">CLSHOP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Index.html">Acceuil</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    NOS PRODUITS
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Ordinateur</a></li>
+                    <li><a class="dropdown-item" href="#">Télephone</a></li>
+                   
+                    <li><a class="dropdown-item" href="#">Electroménagers</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Connexion.html">CONNEXION</a>
+                </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Inscription.html">INSCRIPTION</a>
+              </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Chercher un produit" aria-label="Search">
+                <button class="btn btn-outline-danger" type="submit">Chercher</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+       <!-- Fin section menu de navigateur -->
+
+       <!-- Debut de travail -->
+       <div class="container">
+        <div class="brand-title">Nouveau mot de passe</div>
+        <div class="inputs">
+          <label>EMAIL</label>
+          <input type="email" placeholder="Email" />
+          <label>Mot de passe</label>
+          <input type="Mot de passe" placeholder="Mot de passe" />
+          <button class="button" type="submit">Enregistrer</button>
+        </div>
+        <!-- Fin travail -->
+         
+  </div>
+  
+</body>
+</html>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+/* input {
+  caret-color: red;
+} */
+
+/* body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ecf0f3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  font-family: poppins;
+} */
+
+.container {
+  position: relative;
+  width: 350px;
+  height: 450px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #0580de;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  margin-top: 30px;
+}
+
+/* .brand-logo {
+  height: 100px;
+  width: 100px;
+  background: url("https://img.icons8.com/color/100/000000/twitter--v2.png");
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+} */
+
+.brand-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #1DA1F2;
+  letter-spacing: 1px;
+}
+
+.inputs {
+  text-align: left;
+  margin-top: 30px;
+}
+
+label, input, .button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.button {
+  color: rgb(18, 16, 16);
+  margin-top: 20px;
+  background: #1DA1F2;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  transition: 0.5s;
+}
+
+.button:hover {
+  box-shadow: none;
+}
+
+/* a {
+  position: absolute;
+  font-size: 8px;
+  bottom: 4px;
+  right: 4px;
+  text-decoration: none;
+  color: black;
+  background: yellow;
+  border-radius: 10px;
+  padding: 2px;
+} */
+
+h1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  text-align: center;
+}
+.brand-title{
+  color: black;
+}
+</style>

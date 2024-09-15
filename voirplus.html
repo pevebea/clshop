@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<body>
+
+  <div class="container-fluid">
+    <!-- debut section de navigation -->
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="shop.html">CLSHOP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">ACCUEIL</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              NOS PRODUITS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="ordinateur.html">Ordinateurs</a></li>
+              <li><a class="dropdown-item" href="telephone.html">Telephones</a></li>
+              <li><a class="dropdown-item" href="Produits_electromenagers.html">Electromenagers</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="connexion.html">CONNEXION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="inscription.html">INSCRIPTION</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="rechercher un produit" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">rechercher</button>
+        </form>
+        </div>
+    </div>
+  </nav>
+  <!-- fin section de navigation -->
+          <div class="container">
+              <div class="card">
+                <div class="row g-0">
+                      <div class="col-md-4">
+                          <img src="images/pc-a1.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Clshop</h5>
+                              <p style="color: blue;">&#9733; &#9734; &#9734; &#9734;</p>
+                              <p class="card-text">ordinateur portable MicroSoft Laptop Go 3 12.4" Ecran tactile Intel Core i7</p>
+                              <div style="display: flex;">
+                                  <p> 6.500.000 GNF <s>7.500.000 GNF</s> <span style="color: red;">-11%</span></p>
+                              </div>
+                              <button class="btn btn-primary">acheter</button>
+                              <p class="card-text"><small class="text-body-secondary">PC portable - MacroSoft</small></p>
+                          </div>
+                  </div>
+               </div>
+            </div>
+          
+  </div>
+  
+    </body>
+    </html>
+    <style>
+      
+      .container {
+          height: 100vh; 
+          display: flex;
+          align-items: center; 
+          justify-content: center; 
+          
+      }
+      .card {
+          width: 100%;
+          max-width: 1200px; 
+          height: 100%;
+          display: flex;
+          flex-direction: column; 
+          border: none; 
+          border-radius: 0; 
+          box-shadow: none; 
+      }
+      .card img {
+          width: 100%;
+          height: auto; 
+      }
+      .card-body {
+          padding: 20px;
+          flex: 1; 
+      }
+      .card-title {
+          font-size: 2rem; 
+      }
+      .card-text {
+          font-size: 1.5rem; 
+      }
+      .btn-primary {
+          font-size: 1.5rem; 
+          padding: 12px 24px; 
+      }
+      .card-body p {
+          font-size: 1.2rem; 
+      }
+  </style>
